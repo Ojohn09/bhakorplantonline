@@ -11,14 +11,14 @@
     <meta name="author" content="PIXINVENT">
 
     <title>VOMS DEALER REGISTERATION</title>
-    <link rel="apple-touch-icon" href="{{  asset('public/backend/app-assets/images/ico/apple-icon-120.png')  }}">
-    <link rel="shortcut icon" type="image/x-icon" href="{{  asset('public/backend/app-assets/images/ico/favicon.ico')  }}">
+    <link rel="apple-touch-icon" href="{{  asset('backend/app-assets/images/ico/apple-icon-120.png')  }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{  asset('backend/app-assets/images/ico/favicon.ico')  }}">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/vendors.min.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/pickers/pickadate/pickadate.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/pickers/flatpickr/flatpickr.min.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/vendors.min.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/pickers/pickadate/pickadate.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/pickers/flatpickr/flatpickr.min.css')  }}">
 
 
 
@@ -26,30 +26,30 @@
     <!-- END: Vendor CSS-->
 
     <!-- BEGIN: Theme CSS-->
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/bootstrap.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/bootstrap-extended.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/colors.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/components.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/themes/dark-layout.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/themes/bordered-layout.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/themes/semi-dark-layout.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/bootstrap.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/bootstrap-extended.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/colors.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/components.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/themes/dark-layout.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/themes/bordered-layout.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/themes/semi-dark-layout.css')  }}">
 
 
 
     <!-- BEGIN: Page CSS-->
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/core/menu/menu-types/vertical-menu.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/plugins/forms/form-validation.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/pages/authentication.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/core/menu/menu-types/vertical-menu.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/plugins/forms/form-validation.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/pages/authentication.css')  }}">
 
 
-    {{-- <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/core/menu/menu-types/vertical-menu.css')  }}"> --}}
+    {{-- <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/core/menu/menu-types/vertical-menu.css')  }}"> --}}
 
 
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/assets/css/style.css')  }}">
-    {{-- <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/core/menu/menu-types/vertical-menu.css')  }}> --}}
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/assets/css/style.css')  }}">
+    {{-- <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/core/menu/menu-types/vertical-menu.css')  }}> --}}
     <!-- END: Custom CSS-->
 
 
@@ -68,37 +68,37 @@
 
 
 
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/bootstrap.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/bootstrap-extended.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/colors.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/components.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/themes/dark-layout.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/themes/bordered-layout.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/themes/semi-dark-layout.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/extensions/toastr.min.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/bootstrap.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/bootstrap-extended.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/colors.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/components.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/themes/dark-layout.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/themes/bordered-layout.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/themes/semi-dark-layout.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/extensions/toastr.min.css')  }}">
 
 
 
 
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/tables/datatable/dataTables.bootstrap5.min.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/tables/datatable/responsive.bootstrap5.min.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/tables/datatable/buttons.bootstrap5.min.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/tables/datatable/rowGroup.bootstrap5.min.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/forms/select/select2.min.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/tables/datatable/dataTables.bootstrap5.min.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/tables/datatable/responsive.bootstrap5.min.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/tables/datatable/buttons.bootstrap5.min.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/tables/datatable/rowGroup.bootstrap5.min.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/forms/select/select2.min.css')  }}">
 
 
 
 
     <!-- BEGIN: Page CSS-->
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/core/menu/menu-types/horizontal-menu.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/core/menu/menu-types/horizontal-menu.css')  }}">
 
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/plugins/forms/pickers/form-flat-pickr.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/plugins/forms/pickers/form-pickadate.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/plugins/forms/pickers/form-flat-pickr.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/plugins/forms/pickers/form-pickadate.css')  }}">
 
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/assets/css/style.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/assets/css/style.css')  }}">
 
 
     <!-- END: Custom CSS-->
@@ -129,43 +129,43 @@
 
 
     <!-- BEGIN: Vendor JS-->
-    <script src="{{  asset('public/backend/app-assets/vendors/js/vendors.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/vendors.min.js')  }}"></script>
 
 
     <!-- BEGIN Vendor JS-->
 
     <!-- BEGIN: Page Vendor JS-->
-    <script src="{{  asset('public/backend/app-assets/vendors/js/forms/validation/jquery.validate.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/forms/validation/jquery.validate.min.js')  }}"></script>
 
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
-    <script src="{{  asset('public/backend/app-assets/js/core/app-menu.js')  }}"></script>
-    {{-- <script src="{{  asset('public/backend/app-assets/vendors/js/jquery/jquery.min.js')  }}"></script> --}}
-    <script src="{{  asset('public/backend/app-assets/vendors/js/popper/popper.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/js/core/app.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/js/scripts/pages/auth-register.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/js/core/app-menu.js')  }}"></script>
+    {{-- <script src="{{  asset('backend/app-assets/vendors/js/jquery/jquery.min.js')  }}"></script> --}}
+    <script src="{{  asset('backend/app-assets/vendors/js/popper/popper.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/js/core/app.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/js/scripts/pages/auth-register.js')  }}"></script>
 
 
 
 
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/jquery.dataTables.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/datatables.bootstrap5.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/responsive.bootstrap5.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/datatables.checkboxes.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/datatables.buttons.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/jszip.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/pdfmake.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/vfs_fonts.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/buttons.html5.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/buttons.print.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/dataTables.rowGroup.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/jquery.dataTables.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/datatables.bootstrap5.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/responsive.bootstrap5.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/datatables.checkboxes.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/datatables.buttons.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/jszip.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/pdfmake.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/vfs_fonts.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/buttons.html5.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/buttons.print.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/dataTables.rowGroup.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js')  }}"></script>
 
 
-    <script src="{{  asset('public/backend/app-assets/js/scripts/tables/table-datatables-basic.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/js/scripts/tables/table-datatables-advanced.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/js/scripts/tables/table-datatables-basic.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/js/scripts/tables/table-datatables-advanced.js')  }}"></script>
 
 
 

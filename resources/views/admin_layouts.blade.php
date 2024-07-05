@@ -24,29 +24,29 @@ $firstname =  Auth::user()->first_name;
     <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
     <title>BHAKOR ENERGY</title>
-    <link rel="apple-touch-icon" href="{{  asset('public/backend/app-assets/images/ico/apple-icon-120.png')  }}">
-    <link rel="shortcut icon" type="image/x-icon" href="{{  asset('public/backend/app-assets/images/ico/favicon.ico')  }}">
+    <link rel="apple-touch-icon" href="{{  asset('backend/app-assets/images/ico/apple-icon-120.png')  }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{  asset('backend/app-assets/images/ico/favicon.ico')  }}">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/vendors.min.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/pickers/pickadate/pickadate.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/pickers/flatpickr/flatpickr.min.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/charts/apexcharts.css')  }}">
-    {{-- <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/extensions/toastr.min.css')  }}"> --}}
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/vendors.min.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/pickers/pickadate/pickadate.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/pickers/flatpickr/flatpickr.min.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/charts/apexcharts.css')  }}">
+    {{-- <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/extensions/toastr.min.css')  }}"> --}}
 
 
     <!-- END: Vendor CSS-->
 
     <!-- BEGIN: Theme CSS-->
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/bootstrap.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/bootstrap-extended.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/colors.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/components.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/themes/dark-layout.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/themes/bordered-layout.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/themes/semi-dark-layout.css')  }}">
-    {{-- <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/extensions/toastr.min.css')  }}"> --}}
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/bootstrap.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/bootstrap-extended.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/colors.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/components.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/themes/dark-layout.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/themes/bordered-layout.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/themes/semi-dark-layout.css')  }}">
+    {{-- <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/extensions/toastr.min.css')  }}"> --}}
 
 
 
@@ -56,23 +56,23 @@ $firstname =  Auth::user()->first_name;
 
 
 
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/tables/datatable/dataTables.bootstrap5.min.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/tables/datatable/responsive.bootstrap5.min.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/tables/datatable/buttons.bootstrap5.min.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/tables/datatable/rowGroup.bootstrap5.min.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/vendors/css/forms/select/select2.min.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/tables/datatable/dataTables.bootstrap5.min.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/tables/datatable/responsive.bootstrap5.min.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/tables/datatable/buttons.bootstrap5.min.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/tables/datatable/rowGroup.bootstrap5.min.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/vendors/css/forms/select/select2.min.css')  }}">
 
 
 
 
     <!-- BEGIN: Page CSS-->
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/core/menu/menu-types/horizontal-menu.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/core/menu/menu-types/horizontal-menu.css')  }}">
 
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/plugins/forms/pickers/form-flat-pickr.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/plugins/forms/pickers/form-pickadate.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/pages/dashboard-ecommerce.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/plugins/charts/chart-apex.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backendapp-assets/css/plugins/extensions/ext-component-toastr.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/plugins/forms/pickers/form-flat-pickr.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/plugins/forms/pickers/form-pickadate.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/pages/dashboard-ecommerce.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/plugins/charts/chart-apex.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backendapp-assets/css/plugins/extensions/ext-component-toastr.css')  }}">
 
 
 
@@ -80,8 +80,8 @@ $firstname =  Auth::user()->first_name;
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/assets/css/style.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('public/backend/app-assets/css/plugins/extensions/ext-component-sweet-alerts.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/assets/css/style.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('backend/app-assets/css/plugins/extensions/ext-component-sweet-alerts.css')  }}">
 
 
 
@@ -150,7 +150,7 @@ $firstname =  Auth::user()->first_name;
 
 
                 <li class="nav-item dropdown dropdown-user"><a class="nav-link dropdown-toggle dropdown-user-link" id="dropdown-user" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <div class="user-nav d-sm-flex d-none"><span class="user-name fw-bolder">{{ $username }}</span></div><span class="avatar"><img class="round" src="{{  asset('public/backend/app-assets/images/portrait/small/logo.png')  }}" alt="avatar" height="40" width="40"><span class="avatar-status-online"></span></span>
+                        <div class="user-nav d-sm-flex d-none"><span class="user-name fw-bolder">{{ $username }}</span></div><span class="avatar"><img class="round" src="{{  asset('backend/app-assets/images/portrait/small/logo.png')  }}" alt="avatar" height="40" width="40"><span class="avatar-status-online"></span></span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-user"><a class="dropdown-item" href= {{ URL::to('/logout') }} ><i class="me-50" data-feather="mail"></i> Logout</a>
 
@@ -351,8 +351,8 @@ $firstname =  Auth::user()->first_name;
 
 
     <!-- BEGIN: Vendor JS-->
-    <script src="{{  asset('public/backend/app-assets/vendors/js/vendors.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/extensions/toastr.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/vendors.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/extensions/toastr.min.js')  }}"></script>
 
 
 
@@ -360,51 +360,51 @@ $firstname =  Auth::user()->first_name;
     <!-- BEGIN Vendor JS-->
 
     <!-- BEGIN: Page Vendor JS-->
-    <script src="{{  asset('public/backend/app-assets/vendors/js/ui/jquery.sticky.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/charts/apexcharts.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/popper/popper.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/ui/jquery.sticky.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/charts/apexcharts.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/popper/popper.min.js')  }}"></script>
 
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
-    <script src="{{  asset('public/backend/app-assets/js/core/app-menu.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/js/core/app.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/js/scripts/pages/dashboard-ecommerce.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/js/core/app-menu.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/js/core/app.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/js/scripts/pages/dashboard-ecommerce.js')  }}"></script>
     <!-- END: Theme JS-->
 
 
 
 
 
-    <script src="{{  asset('public/backend/app-assets/js/scripts/forms/form-select2.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/js/scripts/forms/form-select2.js')  }}"></script>
     <!-- BEGIN: Page Vendor JS-->
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
-    <script src="{{  asset('public/backend/app-assets/js/core/app-menu.js')  }}"></script>
-    {{-- <script src="{{  asset('public/backend/app-assets/vendors/js/jquery/jquery.min.js')  }}"></script> --}}
-    <script src="{{  asset('public/backend/app-assets/vendors/js/popper/popper.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/js/core/app.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/js/core/app-menu.js')  }}"></script>
+    {{-- <script src="{{  asset('backend/app-assets/vendors/js/jquery/jquery.min.js')  }}"></script> --}}
+    <script src="{{  asset('backend/app-assets/vendors/js/popper/popper.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/js/core/app.js')  }}"></script>
 
 
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/jquery.dataTables.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/datatables.bootstrap5.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/responsive.bootstrap5.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/datatables.checkboxes.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/datatables.buttons.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/jszip.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/pdfmake.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/vfs_fonts.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/buttons.html5.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/buttons.print.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/tables/datatable/dataTables.rowGroup.min.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/jquery.dataTables.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/datatables.bootstrap5.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/responsive.bootstrap5.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/datatables.checkboxes.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/datatables.buttons.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/jszip.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/pdfmake.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/vfs_fonts.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/buttons.html5.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/buttons.print.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/tables/datatable/dataTables.rowGroup.min.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js')  }}"></script>
 
 
-    <script src="{{  asset('public/backend/app-assets/js/scripts/tables/table-datatables-basic.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/js/scripts/tables/table-datatables-advanced.js')  }}"></script>
-    <script src="{{  asset('public/backend/app-assets/js/scripts/extensions/ext-component-sweet-alerts.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/js/scripts/tables/table-datatables-basic.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/js/scripts/tables/table-datatables-advanced.js')  }}"></script>
+    <script src="{{  asset('backend/app-assets/js/scripts/extensions/ext-component-sweet-alerts.js')  }}"></script>
 
     <!-- BEGIN: Page JS-->
     <!-- END: Page JS-->
