@@ -256,12 +256,12 @@ $firstname =  Auth::user()->first_name;
             <!-- Dashboard Analytics Year end -->
 
 
-            <form action="{{ route('database.sync') }}" method="POST">
+            {{-- <form action="{{ route('database.sync') }}" method="POST">
                 @csrf
                 <button type="submit" class="btn btn-outline-primary">
                    Sync Records
                 </button>
-            </form>
+            </form> --}}
 
         </div>
     </div>
